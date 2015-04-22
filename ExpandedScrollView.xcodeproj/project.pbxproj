@@ -14,6 +14,11 @@
 		02A9D7721AE7B83000B68220 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02A9D7711AE7B83000B68220 /* Images.xcassets */; };
 		02A9D7751AE7B83000B68220 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02A9D7731AE7B83000B68220 /* LaunchScreen.xib */; };
 		02A9D7811AE7B83000B68220 /* ExpandedScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A9D7801AE7B83000B68220 /* ExpandedScrollViewTests.m */; };
+		02A9D7991AE7B9BB00B68220 /* ESExpandedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A9D7981AE7B9BB00B68220 /* ESExpandedScrollView.m */; };
+		02A9D79C1AE7B9DA00B68220 /* ESExpandedArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A9D79B1AE7B9D900B68220 /* ESExpandedArrowView.m */; };
+		02A9D7A01AE7BC4300B68220 /* ESExpandedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A9D79E1AE7BC4300B68220 /* ESExpandedViewController.m */; };
+		02A9D7A11AE7BC4300B68220 /* ESExpandedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02A9D79F1AE7BC4300B68220 /* ESExpandedViewController.xib */; };
+		8EC0737C8BA0F65B0F148544 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B4CB5FA20BD726777426331 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,16 @@
 		02A9D77A1AE7B83000B68220 /* ExpandedScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpandedScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02A9D77F1AE7B83000B68220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02A9D7801AE7B83000B68220 /* ExpandedScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpandedScrollViewTests.m; sourceTree = "<group>"; };
+		02A9D7971AE7B9BB00B68220 /* ESExpandedScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESExpandedScrollView.h; sourceTree = "<group>"; };
+		02A9D7981AE7B9BB00B68220 /* ESExpandedScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESExpandedScrollView.m; sourceTree = "<group>"; };
+		02A9D79A1AE7B9D900B68220 /* ESExpandedArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESExpandedArrowView.h; sourceTree = "<group>"; };
+		02A9D79B1AE7B9D900B68220 /* ESExpandedArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESExpandedArrowView.m; sourceTree = "<group>"; };
+		02A9D79D1AE7BC4300B68220 /* ESExpandedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESExpandedViewController.h; sourceTree = "<group>"; };
+		02A9D79E1AE7BC4300B68220 /* ESExpandedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESExpandedViewController.m; sourceTree = "<group>"; };
+		02A9D79F1AE7BC4300B68220 /* ESExpandedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESExpandedViewController.xib; sourceTree = "<group>"; };
+		0B4CB5FA20BD726777426331 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B392A01B079E3E5CDAFFE79 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6275206BB7EFBB6CF41CA6A6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EC0737C8BA0F65B0F148544 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +82,8 @@
 				02A9D7631AE7B83000B68220 /* ExpandedScrollView */,
 				02A9D77D1AE7B83000B68220 /* ExpandedScrollViewTests */,
 				02A9D7621AE7B83000B68220 /* Products */,
+				268AD08BF6A0EE6CB9B5B06C /* Pods */,
+				5D8BD4D0D87EFE382E2960A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,12 +99,16 @@
 		02A9D7631AE7B83000B68220 /* ExpandedScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				02A9D7961AE7B9BB00B68220 /* Classes */,
 				02A9D7681AE7B83000B68220 /* AppDelegate.h */,
 				02A9D7691AE7B83000B68220 /* AppDelegate.m */,
 				02A9D76B1AE7B83000B68220 /* ViewController.h */,
 				02A9D76C1AE7B83000B68220 /* ViewController.m */,
 				02A9D76E1AE7B83000B68220 /* Main.storyboard */,
 				02A9D7711AE7B83000B68220 /* Images.xcassets */,
+				02A9D79D1AE7BC4300B68220 /* ESExpandedViewController.h */,
+				02A9D79E1AE7BC4300B68220 /* ESExpandedViewController.m */,
+				02A9D79F1AE7BC4300B68220 /* ESExpandedViewController.xib */,
 				02A9D7731AE7B83000B68220 /* LaunchScreen.xib */,
 				02A9D7641AE7B83000B68220 /* Supporting Files */,
 			);
@@ -119,6 +141,34 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		02A9D7961AE7B9BB00B68220 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				02A9D79A1AE7B9D900B68220 /* ESExpandedArrowView.h */,
+				02A9D79B1AE7B9D900B68220 /* ESExpandedArrowView.m */,
+				02A9D7971AE7B9BB00B68220 /* ESExpandedScrollView.h */,
+				02A9D7981AE7B9BB00B68220 /* ESExpandedScrollView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		268AD08BF6A0EE6CB9B5B06C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B392A01B079E3E5CDAFFE79 /* Pods.debug.xcconfig */,
+				6275206BB7EFBB6CF41CA6A6 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5D8BD4D0D87EFE382E2960A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B4CB5FA20BD726777426331 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02A9D7841AE7B83000B68220 /* Build configuration list for PBXNativeTarget "ExpandedScrollView" */;
 			buildPhases = (
+				6213CFB495C08B21488A954D /* Check Pods Manifest.lock */,
 				02A9D75D1AE7B83000B68220 /* Sources */,
 				02A9D75E1AE7B83000B68220 /* Frameworks */,
 				02A9D75F1AE7B83000B68220 /* Resources */,
+				C0AE006E065DA7D3D566A65C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -201,6 +253,7 @@
 			files = (
 				02A9D7701AE7B83000B68220 /* Main.storyboard in Resources */,
 				02A9D7751AE7B83000B68220 /* LaunchScreen.xib in Resources */,
+				02A9D7A11AE7BC4300B68220 /* ESExpandedViewController.xib in Resources */,
 				02A9D7721AE7B83000B68220 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,13 +267,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6213CFB495C08B21488A954D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C0AE006E065DA7D3D566A65C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		02A9D75D1AE7B83000B68220 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				02A9D76D1AE7B83000B68220 /* ViewController.m in Sources */,
+				02A9D7991AE7B9BB00B68220 /* ESExpandedScrollView.m in Sources */,
 				02A9D76A1AE7B83000B68220 /* AppDelegate.m in Sources */,
+				02A9D79C1AE7B9DA00B68220 /* ESExpandedArrowView.m in Sources */,
+				02A9D7A01AE7BC4300B68220 /* ESExpandedViewController.m in Sources */,
 				02A9D7671AE7B83000B68220 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,6 +434,7 @@
 		};
 		02A9D7851AE7B83000B68220 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B392A01B079E3E5CDAFFE79 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ExpandedScrollView/Info.plist;
@@ -355,6 +445,7 @@
 		};
 		02A9D7861AE7B83000B68220 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6275206BB7EFBB6CF41CA6A6 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ExpandedScrollView/Info.plist;
@@ -416,6 +507,7 @@
 				02A9D7861AE7B83000B68220 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02A9D7871AE7B83000B68220 /* Build configuration list for PBXNativeTarget "ExpandedScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +516,7 @@
 				02A9D7891AE7B83000B68220 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

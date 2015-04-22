@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ESExpandedViewController.h"
 
 @interface ViewController ()
 
@@ -24,4 +25,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)onShowMenuButton:(id)sender {
+    ESExpandedViewController *viewController = [[ESExpandedViewController alloc] initWithNibName:@"ESExpandedViewController" bundle:nil];
+    
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
+    [self presentViewController:navigationController animated:YES completion:nil];
+}
 @end
