@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.platform = :ios, '6.0'
   s.requires_arc = true
-  s.source_files = 'ExpandedScrollView/Classes/*{h, m}'
+  s.source_files = 'ExpandedScrollView/Classes/*'
   # s.public_header_files = 'ExpandedScrollView/Classes/*.{h'
 
   s.ios.deployment_target = '7.0'

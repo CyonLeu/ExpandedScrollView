@@ -19,6 +19,7 @@
 		02A9D7A01AE7BC4300B68220 /* ESExpandedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A9D79E1AE7BC4300B68220 /* ESExpandedViewController.m */; };
 		02A9D7A11AE7BC4300B68220 /* ESExpandedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02A9D79F1AE7BC4300B68220 /* ESExpandedViewController.xib */; };
 		8EC0737C8BA0F65B0F148544 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B4CB5FA20BD726777426331 /* libPods.a */; };
+		AA95508A1C54BA4000A0DA22 /* ExpandedScrollView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = AA9550891C54BA4000A0DA22 /* ExpandedScrollView.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		0B4CB5FA20BD726777426331 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B392A01B079E3E5CDAFFE79 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6275206BB7EFBB6CF41CA6A6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		AA9550891C54BA4000A0DA22 /* ExpandedScrollView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ExpandedScrollView.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		02A9D7581AE7B83000B68220 = {
 			isa = PBXGroup;
 			children = (
+				AA9550891C54BA4000A0DA22 /* ExpandedScrollView.podspec */,
 				02A9D7631AE7B83000B68220 /* ExpandedScrollView */,
 				02A9D77D1AE7B83000B68220 /* ExpandedScrollViewTests */,
 				02A9D7621AE7B83000B68220 /* Products */,
@@ -256,6 +259,7 @@
 				02A9D7751AE7B83000B68220 /* LaunchScreen.xib in Resources */,
 				02A9D7A11AE7BC4300B68220 /* ESExpandedViewController.xib in Resources */,
 				02A9D7721AE7B83000B68220 /* Images.xcassets in Resources */,
+				AA95508A1C54BA4000A0DA22 /* ExpandedScrollView.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
