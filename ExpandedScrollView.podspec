@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '7.0'
   s.ios.frameworks = 'QuartzCore'
-s.dependency 'pod 'Masonry', '0.6.3'
+s.dependency 'Masonry', '0.6.3'
 end
